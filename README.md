@@ -22,3 +22,6 @@
                                 Resize
 
         Example: bcrawl -n 100 -k 'dogs' -d './dogs' --xshear -2 2 --yshear -2 2 --rotate -60 60 --flip True --zoom 0.5 1.5 --resize 300 300
+
+# Install
+    pip install image-crawl
