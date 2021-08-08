@@ -1,6 +1,9 @@
 /.ipynb_checkpoints
 /.vscode
 /.DS_Store
+/.image_crawl.egg-info
+/.dist
+/.build
 /image_crawl/.DS_Store
 /image_crawl/img
 /image_crawl/src/.DS_Store
