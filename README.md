@@ -1,8 +1,7 @@
-        usage: collect.py [-h] -n NUM -k KEYWORD -d DEST
-                        [--xshear XSHEAR [XSHEAR ...]]
-                        [--yshear YSHEAR [YSHEAR ...]]
-                        [--rotate ROTATE [ROTATE ...]] [--flip FLIP]
-                        [--zoom ZOOM [ZOOM ...]] [--resize RESIZE [RESIZE ...]]
+        usage: bcrawl [-h] -n NUM -k KEYWORD -d DEST [--xshear XSHEAR [XSHEAR ...]]
+                    [--yshear YSHEAR [YSHEAR ...]] [--rotate ROTATE [ROTATE ...]]
+                    [--flip FLIP] [--zoom ZOOM [ZOOM ...]]
+                    [--resize RESIZE [RESIZE ...]]
 
         optional arguments:
         -h, --help            show this help message and exit
@@ -22,4 +21,4 @@
         --resize RESIZE [RESIZE ...]
                                 Resize
 
-        Example: python3 collect.py -n 100 -k 'dogs' -d './dogs' --xshear -2 2 --yshear -2 2 --rotate -60 60 --flip True --zoom 0.5 1.5 --resize 300 300
+        Example: bcrawl -n 100 -k 'dogs' -d './dogs' --xshear -2 2 --yshear -2 2 --rotate -60 60 --flip True --zoom 0.5 1.5 --resize 300 300
